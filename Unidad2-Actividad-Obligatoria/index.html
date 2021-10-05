@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 2 - Actividad obligatoria</title>
+</head>
+<body>
+    <script> 
+        alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 
+        </script>
+    <h1>Acceso al sistema</h1><!-- Titulo -->
+    <div> <! -- Video de youtue ..>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6lQ5nn_wjtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+   <div>
+       <! -- https://cnnespanol.cnn.com/video/erupcion-volcan-palma-pelicula-videos-impactantes-perspectivas-buenos-aires/ -->
+       <video src="https://clips-mp4-aka.warnermediacdn.com/cnn/clips/2021-09/455746-aefb59ae8dd847698fc4d13f5c2186a3/mp4/cms3-CNN-erupcion-volcan-palma-pelicula-videos-impactantes-perspectivas-buenos-aires-primary-128182-455746-1920x1080_8000k.mp4" width="500px" height="500px"></video>
+   </div>
+
+    <form action="servidor" method="post" enctype="text/plain"> 
+        Nombre y Apellido : <input type="number" name="nombre" size="10"> 
+        <br>
+        <br>
+        Usuario: <input type="text" name="usuario" size="8" maxlength="20">
+        <br>
+        <br>
+        Clave: <input type="password" name="password" size="8" maxlength="12"> 
+        <br>
+        <br>
+        <button type="submit">Ingresar</button>
+    </form>
+</body>
+</html>

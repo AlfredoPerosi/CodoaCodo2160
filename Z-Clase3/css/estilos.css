@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(150, 148, 149, 0.925);
+}
+#etiquetas{
+    background-color: black !important;
+    width: 80%;
+    color: white;
+    height: 200px;
+}
+.azul{
+    background-color: blue;
+}
+div{
+    background-color: brown;
+    height: 250px;
+}
+li{
+    display: inline;
+    padding: 10px;
+    border: 1px solid white;
+    margin: 4px;
+    background-color: rgb(130, 11, 241, 0.52);
+    cursor: pointer;
+    box-shadow: 2px 5px 10px white;
+}
+li:hover{ 
+    /* color de fondo */
+    background-color: aqua;
+    color: black;
+    box-shadow: -5px 5px 10px white;
+    opacity: 0.3    ;
+}
+img{
+    width: 200px;
+}
+.pag2{
+    background-color:salmon;
+}
